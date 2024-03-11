@@ -13,7 +13,10 @@ class BankAccount:
         self. balance = self.balance - amount
         return self.balance
 
-
+    def transfer(self, amount, other)
+        self.withdraw(amount)
+        other.lodge(amount)
+        
     def lodge(self, amount):
         self. balance = self.balance + amount
         return self.balance
